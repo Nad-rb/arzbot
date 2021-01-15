@@ -10,7 +10,7 @@ module.exports = {
   name: "play",
   cooldown: 3,
   aliases: ["p"],
-  description: "Plays audio from YouTube or Soundcloud",
+  description: "Plays audio from YouTube or Soundcloud, but the soundcloud still on wip.",
   async execute(message, args) {
     const { channel } = message.member.voice;
 
